@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TXYbnnJDgvFjgs0F6uw5qKtZ/vWh/3G7Int2GLLR8EdFwmulTf6iMDWx0eZ3s/6I9/LofteO3L/XzosGsD2EfA==",
+  "success": true,
+  "projectFilePath": "C:\\persnteam\\pers\\work\\sets01\\set1\\prjs01\\prj1\\pj2\\blindCMD\\dotnetWPF\\binDotnet\\binDotnet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericd\\.nuget\\packages\\opentk.audio.openal\\4.8.2\\opentk.audio.openal.4.8.2.nupkg.sha512",
+    "C:\\Users\\ericd\\.nuget\\packages\\opentk.core\\4.8.2\\opentk.core.4.8.2.nupkg.sha512",
+    "C:\\Users\\ericd\\.nuget\\packages\\opentk.mathematics\\4.8.2\\opentk.mathematics.4.8.2.nupkg.sha512",
+    "C:\\Users\\ericd\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,19 @@
+﻿<Window x:Class="binDotnet.ui.CgWind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:binDotnet.ui"
+        mc:Ignorable="d"
+        Title="CgWind" Height="450" Width="800"
+        Closed="CgWind_OnClosed">
+    <Grid>
+        <Viewbox Stretch="Fill">
+            <Canvas Height="450" Width="800">
+                <Image x:Name="docuImage" Height="450" Canvas.Left="957" Canvas.Top="295" Width="800"/>
+
+            </Canvas>
+        </Viewbox>
+
+    </Grid>
+</Window>
