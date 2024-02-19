@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
-  <ItemGroup>
-    <Compile Update="ui\CgWind.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="ui\CmdWind.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ui\CgWind.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ui\CmdWind.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
 </Project>

@@ -1,4 +1,6 @@
-﻿namespace binDotnet.blnCls.level;
+﻿using binDotnet.blnCls.util;
+
+namespace binDotnet.blnCls.level;
 
 public enum PuzzlePointType
 {
@@ -7,6 +9,7 @@ public enum PuzzlePointType
     Document,   // 档案读取点(无危险)
     Event,      // 档案读取点(事件)
     Death,      // 死亡陷阱
+    Wall,       // 墙
 }
 
 public abstract class Level
@@ -18,10 +21,22 @@ public abstract class Level
     {
         return true;
     }
-    
-    
 
+    public bool HitWall(Pair<Int32, Int32> pos) {
+        if (puzzleArr[pos.First][pos.Second] == (int)PuzzlePointType.Wall) {
+            return true;
+        }
+        return false;
+    }
 
+    public Pair<Int32, Int32> PuzzleSize {
+        get {
+            Pair<Int32, Int32> sze = new Pair<int, int>();
+            sze.First = puzzleArr.Length;
+            sze.Second = puzzleArr[0].Length;
+            return sze;
+        }
+    }
 
 
 }

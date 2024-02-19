@@ -53,9 +53,11 @@ c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.AssemblyInfoInputs.cache
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.AssemblyInfo.cs
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.csproj.CoreCompileInputs.cache
-c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.csproj.CopyComplete
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.dll
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\refint\binDotnet.dll
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.pdb
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.genruntimeconfig.cache
 c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\ref\binDotnet.dll
+c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.sourcelink.json
+c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\obj\Debug\net8.0-windows\binDotnet.csproj.Up2Date
+c:\persnteam\pers\work\sets01\set1\prjs01\prj1\pj2\blindCMD\dotnetWPF\binDotnet\bin\Debug\net8.0-windows\Antlr4.Runtime.Standard.dll

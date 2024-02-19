@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "Antlr4.Runtime.Standard/4.13.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "OpenTK.Audio.OpenAL/4.8.2": {
         "type": "package",
         "dependencies": {
@@ -64,6 +77,21 @@
     }
   },
   "libraries": {
+    "Antlr4.Runtime.Standard/4.13.1": {
+      "sha512": "Da5+i4kFHUseJRZGcBG5fmZGpA/Ns180ibrQMxgZzjpQOnENVvSL5gi5HZ8Ncz8/AR2WsKbOg2lMBzjz0HUQcA==",
+      "type": "package",
+      "path": "antlr4.runtime.standard/4.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "antlr4.runtime.standard.4.13.1.nupkg.sha512",
+        "antlr4.runtime.standard.nuspec",
+        "lib/net45/Antlr4.Runtime.Standard.dll",
+        "lib/net45/Antlr4.Runtime.Standard.xml",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.dll",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.xml"
+      ]
+    },
     "OpenTK.Audio.OpenAL/4.8.2": {
       "sha512": "/Xe0luzJiVOvJ8YXGMY/YLZsGsb0/7Ms09isb/WxkKWjLyuiB2OIflZ49VHmumZpQDz2PUgwqOt2fucviLOmuw==",
       "type": "package",
@@ -144,6 +172,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Antlr4.Runtime.Standard >= 4.13.1",
       "OpenTK.Audio.OpenAL >= 4.8.2"
     ]
   },
@@ -180,12 +209,21 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "Antlr4.Runtime.Standard": {
+            "target": "Package",
+            "version": "[4.13.1, )"
+          },
           "OpenTK.Audio.OpenAL": {
             "target": "Package",
             "version": "[4.8.2, )"
@@ -210,7 +248,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,6 +3,7 @@ using System.Windows;
 using binDotnet.blnCls.blind.charac;
 using binDotnet.blnCls.blind.observe;
 using binDotnet.blnCls.constVle.typeSign;
+using binDotnet.blnCls.level;
 using binDotnet.ui;
 
 namespace binDotnet.blnCls.blind;
@@ -12,8 +13,9 @@ public partial class GameCore
     private CmdObserver cmdobs;
     private CgObserver cgobs;
     private string name;
-    private Charac charac;
+    public Charac charac;
     private GameStatus gameStatus;
+    public Level level;
     
     public GameCore(string name)
     {
