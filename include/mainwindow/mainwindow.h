@@ -14,6 +14,7 @@ namespace mainwindow {
 
         // draw_menus
         void drawMenuBar();
+        void drawBackGround();
 
 
     public:
