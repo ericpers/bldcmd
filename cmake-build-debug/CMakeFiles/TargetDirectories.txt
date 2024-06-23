@@ -1,0 +1,10 @@
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/bld-bin.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/copyres.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/install.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/install/local.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/bld-bin_autogen_timestamp_deps.dir
+/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/CMakeFiles/bld-bin_autogen.dir
