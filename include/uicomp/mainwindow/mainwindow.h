@@ -3,12 +3,25 @@
 
 #include <QMainWindow>
 
+#include "uicomp/cmdwind/cmdwind.h"
+# include "uicomp/exhibwind/exhibwind.h"
+
+namespace uicomp::exhibwind {
+class ExhibWind;
+}
+
+class uicomp::cmdwind::CmdWind;
+
+
 namespace uicomp::mainwindow {
 class MainWindow : public QMainWindow {
     Q_OBJECT
 
-    QMenuBar *mbar;
-    bool      startGame, exitGame;
+    QMenuBar *mbar{};
+    bool      startGame, exitGame{};
+    cmdwind::CmdWind *cmdWind;
+    exhibwind::ExhibWind *exhibwind;
+    QLabel * background;
 
     public:
     [[nodiscard]] bool start_game() const;
@@ -17,14 +30,18 @@ class MainWindow : public QMainWindow {
     private:
     // draw_menus
     void drawMenuBar();
-    void drawBackGround();
+    void drawBackGround(QPixmap * pixmap);
 
     private slots:
     void startGameSlot();
 
 
     public:
-     MainWindow(QWidget *parent = nullptr);
+    MainWindow(cmdwind::CmdWind* cmdWind, exhibwind::ExhibWind* exhibWind, QWidget *parent = nullptr);
+    void resizeEvent(QResizeEvent* event) override;
+
+
+
     ~MainWindow();
 
 };

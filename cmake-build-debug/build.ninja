@@ -65,6 +65,46 @@ build CMakeFiles/bld-bin.dir/main.cpp.o: CXX_COMPILER__bld-bin_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/bld-bin.dir
   OBJECT_FILE_DIR = CMakeFiles/bld-bin.dir
 
+build CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdoper.cpp.o: CXX_COMPILER__bld-bin_unscanned_Debug /home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdoper.cpp || cmake_object_order_depends_target_bld-bin
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdoper.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/bld-bin_autogen/include -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/eric/Qt/6.7.2/gcc_64/include -isystem /home/eric/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/eric/develop/cpp_lib/vulkan/x86_64/include
+  OBJECT_DIR = CMakeFiles/bld-bin.dir
+  OBJECT_FILE_DIR = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind
+
+build CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwind.cpp.o: CXX_COMPILER__bld-bin_unscanned_Debug /home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdwind.cpp || cmake_object_order_depends_target_bld-bin
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwind.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/bld-bin_autogen/include -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/eric/Qt/6.7.2/gcc_64/include -isystem /home/eric/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/eric/develop/cpp_lib/vulkan/x86_64/include
+  OBJECT_DIR = CMakeFiles/bld-bin.dir
+  OBJECT_FILE_DIR = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind
+
+build CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwinddraw.cpp.o: CXX_COMPILER__bld-bin_unscanned_Debug /home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdwinddraw.cpp || cmake_object_order_depends_target_bld-bin
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwinddraw.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/bld-bin_autogen/include -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/eric/Qt/6.7.2/gcc_64/include -isystem /home/eric/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/eric/develop/cpp_lib/vulkan/x86_64/include
+  OBJECT_DIR = CMakeFiles/bld-bin.dir
+  OBJECT_FILE_DIR = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind
+
+build CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwindupdt.cpp.o: CXX_COMPILER__bld-bin_unscanned_Debug /home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdwindupdt.cpp || cmake_object_order_depends_target_bld-bin
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwindupdt.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/bld-bin_autogen/include -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/eric/Qt/6.7.2/gcc_64/include -isystem /home/eric/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/eric/develop/cpp_lib/vulkan/x86_64/include
+  OBJECT_DIR = CMakeFiles/bld-bin.dir
+  OBJECT_FILE_DIR = CMakeFiles/bld-bin.dir/src/uicomp/cmdwind
+
+build CMakeFiles/bld-bin.dir/src/uicomp/exhibwind/exhibwind.cpp.o: CXX_COMPILER__bld-bin_unscanned_Debug /home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/exhibwind/exhibwind.cpp || cmake_object_order_depends_target_bld-bin
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/bld-bin.dir/src/uicomp/exhibwind/exhibwind.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/cmake-build-debug/bld-bin_autogen/include -I/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/eric/Qt/6.7.2/gcc_64/include -isystem /home/eric/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/eric/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/eric/develop/cpp_lib/vulkan/x86_64/include
+  OBJECT_DIR = CMakeFiles/bld-bin.dir
+  OBJECT_FILE_DIR = CMakeFiles/bld-bin.dir/src/uicomp/exhibwind
+
 build CMakeFiles/bld-bin.dir/src/uicomp/mainwindow/mainwindow.cpp.o: CXX_COMPILER__bld-bin_unscanned_Debug /home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/mainwindow/mainwindow.cpp || cmake_object_order_depends_target_bld-bin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/bld-bin.dir/src/uicomp/mainwindow/mainwindow.cpp.o.d
@@ -89,7 +129,7 @@ build CMakeFiles/bld-bin.dir/src/uicomp/mainwindow/mainwindowutils.cpp.o: CXX_CO
 #############################################
 # Link the executable bld-bin
 
-build bld-bin: CXX_EXECUTABLE_LINKER__bld-bin_Debug CMakeFiles/bld-bin.dir/bld-bin_autogen/mocs_compilation.cpp.o CMakeFiles/bld-bin.dir/main.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/mainwindow/mainwindow.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/mainwindow/mainwindowutils.cpp.o | /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2 /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so || bld-bin_autogen bld-bin_autogen_timestamp_deps
+build bld-bin: CXX_EXECUTABLE_LINKER__bld-bin_Debug CMakeFiles/bld-bin.dir/bld-bin_autogen/mocs_compilation.cpp.o CMakeFiles/bld-bin.dir/main.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdoper.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwind.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwinddraw.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/cmdwind/cmdwindupdt.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/exhibwind/exhibwind.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/mainwindow/mainwindow.cpp.o CMakeFiles/bld-bin.dir/src/uicomp/mainwindow/mainwindowutils.cpp.o | /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2 /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so || bld-bin_autogen bld-bin_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-rpath,/home/eric/Qt/6.7.2/gcc_64/lib:  -lfmt  /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2  /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2  /home/eric/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2  /usr/lib64/libGLX.so  /usr/lib64/libOpenGL.so
   OBJECT_DIR = CMakeFiles/bld-bin.dir

@@ -37,19 +37,16 @@ void MainWindow::drawMenuBar() {
     connect(exitGame, &QAction::triggered, this, &MainWindow::close);
 }
 
-void MainWindow::drawBackGround() {
-    QPixmap pixmap("res/pics/opening.png");
-    QLabel *label = new QLabel(this);
-    label->setPixmap(pixmap.scaled(
-        this->size(), Qt::IgnoreAspectRatio, Qt::SmoothTransformation));
-    label->resize(this->size());
-    label->setScaledContents(true);
-    label->lower();
+void MainWindow::drawBackGround(QPixmap * pixmap) {
+    this->background->close();
+    this->background = new QLabel(this);
+    background->setScaledContents(true);
+    background->resize(this->size());
+    background->setPixmap(* pixmap);
+    background->lower();
+    background->show();
+
 }
-void MainWindow::startGameSlot() {
-    qDebug() << "startGame";
-    this->close();
-    this->show();
-}
+
 
 }  // namespace uicomp::mainwindow

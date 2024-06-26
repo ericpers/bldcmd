@@ -402,18 +402,6 @@
 			null
 		],
 		[
-			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include/uicomp/cmdwind/cmdwindcls.h",
-			"MU",
-			"JKDEWDS4M4/moc_cmdwindcls.cpp",
-			null
-		],
-		[
-			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include/uicomp/exhibwind/exhibcls.h",
-			"MU",
-			"5OPIHIMTEG/moc_exhibcls.cpp",
-			null
-		],
-		[
 			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/include/uicomp/exhibwind/exhibwind.h",
 			"MU",
 			"5OPIHIMTEG/moc_exhibwind.cpp",
@@ -489,6 +477,31 @@
 	[
 		[
 			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdoper.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdwind.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdwinddraw.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/cmdwind/cmdwindupdt.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/eric/persNteam/pers/work/self_work_1/set01/prjs01/prj1/pj1/bld/cpp/bld-bin/bld-bin/src/uicomp/exhibwind/exhibwind.cpp",
 			"MU",
 			null
 		],
