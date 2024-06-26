@@ -3,7 +3,8 @@
 //
 
 #include "uicomp/cmdwind/cmdwind.h"
-# include <QFontDatabase>
+
+#include <QFontDatabase>
 
 namespace uicomp::cmdwind {
 
@@ -34,10 +35,7 @@ CmdWind::CmdWind(QWidget* parent) {
     histCommnd->show();
     commndInput->show();
 
-
-
-    // connectsig();
+    connectsig();
 }
-
 
 }  // namespace uicomp::cmdwind
