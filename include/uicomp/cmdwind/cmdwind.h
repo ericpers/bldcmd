@@ -15,7 +15,8 @@ class CmdWind:public QWidget {
     QLabel * histCommnd;
     QLineEdit* commndInput;
 
-    void drawBgColor(QWidget * target, int r, int g, int b, int a=255 );
+    void drawBgColor(QPalette::ColorRole acr, QWidget * target, int r, int g, int b, int a=255 );
+    void drawLabelBgColor(QWidget * target, int r, int g, int b, int a);
     void connectsig();
 
 

@@ -27,7 +27,7 @@ set(PROJECT_SOURCES
         ${Src}
 )
 
-set(LNK_LIB Qt::Core Qt::Widgets fmt)
+set(LNK_LIB Qt::Core Qt::Widgets fmt bld)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(${PROJECT_NAME}
@@ -52,7 +52,11 @@ else()
     endif()
 endif()
 
-target_include_directories(${PROJECT_NAME} PRIVATE include)
+target_include_directories(${PROJECT_NAME} PRIVATE
+        include
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/bld/include
+)
+target_link_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/lib/bld/lib)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${LNK_LIB})
 
 add_custom_target(copyres
